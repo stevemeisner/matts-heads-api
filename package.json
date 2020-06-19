@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "netlify-lambda serve -p 6969 src",
+    "start": "netlify-lambda serve --port=6969 src",
     "build": "netlify-lambda build src"
   },
   "dependencies": {

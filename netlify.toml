@@ -2,3 +2,4 @@
   function = "functions"
   command = "yarn build"
   publish = "dist"
+  port = 6969

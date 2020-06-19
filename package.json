@@ -2,7 +2,7 @@
   "name": "matts-heads-api",
   "version": "1.0.0",
   "description": "An endless supply of Matt",
-  "main": "index.js",
+  "main": "src/api.js",
   "author": "Steve Meisner",
   "license": "MIT",
   "private": false,

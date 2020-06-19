@@ -1,0 +1,19 @@
+{
+  "name": "matts-heads-api",
+  "version": "1.0.0",
+  "description": "An endless supply of Matt",
+  "main": "index.js",
+  "author": "Steve Meisner",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "netlify-lambda serve -p 6969 src",
+    "build": "netlify-lambda build src"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "netlify-lambda": "^1.6.3",
+    "serverless-http": "^2.5.0"
+  }
+}
